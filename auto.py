@@ -21,10 +21,10 @@ def classificar_arquivo(nome_arquivo):
         return None  # arquivos sem extensão (às vezes acontece rs)
 
 # 🌈 Caminho de onde vem a bagunça
-pasta_origem = '/home/maabe/Downloads'
+pasta_origem = '/home/meuuser/Downloads'
 
 # 🗂️ Caminho de onde vai ficar tudo lindamente organizado
-pasta_destino_base = '/home/maabe/Documentos'
+pasta_destino_base = '/home/meuuser/Documentos'
 
 # ⚙️ Verifica se a pasta de origem existe
 if not os.path.exists(pasta_origem):
